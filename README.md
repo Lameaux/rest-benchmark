@@ -1,2 +1,2 @@
 # rest-benchmark
-Benchmarking Spring, Rails and Node.js with MongoDB
+Benchmarking Spring, Rails and Express against MongoDB
