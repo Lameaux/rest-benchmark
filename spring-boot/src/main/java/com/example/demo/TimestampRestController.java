@@ -11,4 +11,15 @@ public class TimestampRestController {
         return new TimestampResponse(System.currentTimeMillis());
     }
 
+    class TimestampResponse {
+        private final long timestamp;
+
+        TimestampResponse(long timestamp) {
+            this.timestamp = timestamp;
+        }
+
+        public long getTimestamp() {
+            return timestamp;
+        }
+    }
 }
